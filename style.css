@@ -21,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-right: 110px;
 }
 
 .header-text {
@@ -31,22 +32,25 @@ body {
 }
 
 .main-txt {
-    font-size: 24px;
+    font-size: 45px;
     font-weight: 800;
     color: #f9faf8;
-    max-width: 200px;
+    max-width: 400px;
 }
 
 .middle-txt{
     font-size: 18px;
+    font-weight: lighter;
     color: #e5e7eb; 
     max-width: 500px;
 }
 
 .top-content {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -62,16 +66,24 @@ a {
     color: #e5e7eb;
 }
 
-button {
-    width: max-content;
-    height: max-content;
-    margin: 2px;
+.button {
+    margin-top: 6px;
 }
 
 img {
     max-height: 200px;
     max-width: 350px;
     margin-bottom: 40px;
-    margin-left: 0;
+    margin-left: 40px;
     margin-right: 0;
+}
+
+button {
+    background-color: #3882f6;
+    max-width: max-content;
+    max-height: max-content;
+    padding: 6px 20px;
+    color: #f9faf8;
+    border: none;
+    border-radius: 8px;
 }
